@@ -12,7 +12,7 @@ public class cp{
             // load the driver
             Class.forName("com.mysql.jdbc.Driver");
             //create connection
-             con=DriverManager.getConnection("jdbc:mysql://localhost:3306/student_management_system","root","Amit@2904");
+             con=DriverManager.getConnection("jdbc:mysql://localhost:3306/student_management_system","root"," ");
 
         }
         catch (Exception e)
